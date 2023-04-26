@@ -15,12 +15,12 @@
         <nav>
             <ul>
             <li><h1><a href="index.html"><span class="fa-solid fa-user-astronaut logo" aria-hidden="true"></span>Taylor Dunaway</a></h1></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
-            <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only">Github</span></a></li>
-            <li><a href="#" class="button">Resume</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/taylor-dunaway-01" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
+            <li><a href="https://github.com/TaylorDunawaySE" target="_blank"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only">Github</span></a></li>
+            <li><a href="Resume.pdf" class="button" download target="_blank">Resume</a></li>
             </ul>
         </nav>
         <section id="intro">
@@ -37,26 +37,34 @@
                     <div class="text">
                         <h4>Latest Project</h4>
                         <h3>Digital Commons</h3>
-                        <p class="blackbox">I am responsible for managing quality across 4 squads. Aside from managing the QEs on each squad, I am responsible
-                            for setting direction for the products quality related initiatives. Some interesting work that I have done includes: refactoring exisitng 
-                            automation projects, implementing security scans for build pipelines, implementing New Relic synthetics using Terraform and nodeJS, building a CLI to interface with 
-                            an accessibility testing API, and implementing quality metrics across Digital Commons.
+                        <p class="blackbox">Digital Commons is a portfolio of applications to allow institutions and researchers to showcase their work. 
+                            The team currently consists of 4 squads with a Quality Engineer on each squad. The tech stacks for each squad vary from Java
+                            to Python based, and the cloud provider used is AWS. I am responsible for setting a high bar for the quality of Digital Commons. This involves
+                            managing the growth and careers of the QEs, providing technical direction, and making high quality contributions to build pipelines,
+                            automation projects, and misc. tooling.
                         </P>
                         <h4>Technologies used include:</h4>
                         <ul>
                             <li>Java</li>
                             <li>Python</li>
+                            <li>New Relic</li>
+                            <li>Circle CI</li>
+                            <li>Jenkins</li>
                         </ul>
                     </div>
-                    <img src="images/bepress.png" alt="Elsevier logo." />
+                    <img src="images/bepress.png" alt="Screenshot of Digital Commons exhibit for Wright State University" />
               </article>
               <article class="reverse">
                 <div class="text">
                     <h3>Trimble Earthworks GO! 2.0</h3>
-                    <p class="blackbox">Supercharge your grading projects with a system that just works, right out of the box. 
-                        Compatible with both iPhone and iPad smart devices, Trimble Earthworks GO! 2.0 offers fully automatic control of your compact grading
-                         attachments with minimal setup required. With its user-friendly interface, integrated setup tutorials, and high-precision sensing technology,
-                         Trimble Earthworks GO! 2.0 was built with a single purpose in mind: to save contractors time and money.</P>
+                    <p class="blackbox">Trimle Earthworks GO 2.0 was a replatforming of an existing local contractor oriented grade control application.
+                        EWGO is a mobile app that interfaces over bluetooth with the on machine ECM and blade slope sensor to provide blade slope information to the user, and
+                        semi-autonomous control over the blade. In a nutshell, this system assists the local contractor in attaining precision grading. My role on this project 
+                        ended up being very generalist in nature. I implemented many cross platform features for both Android & iOS. I maintained the build system and served
+                        as the Testing lead. When the integrated circuit shortage put the project on hold, I worked with the controls engineering team to build a inhibit controller
+                        to research the effectivesness of using an excavator's hydraulic valve to stop movement of the boom and bucket. Overall, I used many technologies
+                        and learned a ton about an industry that was unfamiliar to me.
+                    </P>
                     <h4>Technologies used include:</h4>
                     <ul>
                         <li>C++</li>
@@ -71,12 +79,19 @@
               <article>
                 <div class="text">
                     <h3>Identity Plus</h3>
-                    <p class="blackbox">Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like this</a> and <a href="#">like this</a>.</P>
+                    <p class="blackbox">I joined Elsevier as part of a recent graduate scheme, and was assigned to the ID+ project. This project had the goal 
+                        of providing SSO between the suite Elsevier's products. My role in the project varied as I moved between Software Engineering
+                        and Quality Engineering roles. By the end of my tenure I had developed automation frameworks for various teams, implemented both front end
+                        and backend features for ID+, fixed a lot of bugs, and learned a ton. My final days were spent serving as a technical advisor to several testing groups,
+                        and building a consolidated testing framework to be shared by several teams. My greatest acheivement during this time was a p.o.c. that I implemented
+                        to explore A.I. driven automated testing. For this work I was invited to both London and New York to share my project. 
+                    </P>
                     <h4>Technologies used include:</h4>
                     <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SVG</li>
+                    <li>AWS</li>
+                    <li>Java</li>
+                    <li>Terraform</li>
+                    <li>Jenkins</li>
                     </ul>
                 </div>
                 <img src="images/elsevier.jpeg" alt="Elsevier logo." />
@@ -94,9 +109,9 @@
         <footer>
             <h2>Taylor Dunaway &middot; Software Engineer</h2>
             <ul>
-                <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
-                <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only">Github</span></a></li>
-                <li><a href=""><span class="fa-solid fa-envelope" aria-hidden="true"><span class="sr-only">Email</span></span></a></li>
+                <li><a href="https://www.linkedin.com/in/taylor-dunaway-01" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
+                <li><a href="https://github.com/TaylorDunawaySE" target="_blank"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only">Github</span></a></li>
+                <li><a href="mailto:taylordunaway2017@gmail.com"><span class="fa-solid fa-envelope"><span class="sr-only">Email</span></span></a></li>
             </ul>
             <p><small>&copy; 2023 Taylor Dunaway. All rights reserved.</small></p>
         </footer>
